@@ -13,9 +13,8 @@ public class Task2 {
         int sum = 0;
         for (int i = 0; i < n; i++) {
             array[i] = sc.nextInt();
-            if (array[i] == 0) {break;}
             if (array[i] == -1) {sum += array[i - 1];}
+            if (array[i] == 0 ) {System.out.println(sum);}
         }
-        System.out.println(sum);
     }
 }
