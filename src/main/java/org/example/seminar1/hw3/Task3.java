@@ -1,4 +1,4 @@
-package org.example.hw3;
+package org.example.seminar1.hw3;
 
 //3.* Даны две двоичные строки a и b, вернуть их сумму в виде двоичной строки.
 //Ввод: a = "11", b = "1"

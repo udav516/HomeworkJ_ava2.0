@@ -1,4 +1,4 @@
-package org.example.hw1;
+package org.example.seminar1.hw1;
 
 public class Task1 {
     public static void main(String[] args) {
