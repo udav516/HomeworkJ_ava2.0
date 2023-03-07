@@ -1,6 +1,6 @@
-package org.example.seminar2.hw1;
+package org.example.seminar2.hw3;
 
-public class Task1 {
+public class Task3 {
     public static void main(String[] args) {
 
     }
