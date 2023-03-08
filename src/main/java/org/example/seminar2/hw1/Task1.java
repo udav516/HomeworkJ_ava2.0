@@ -20,7 +20,7 @@ public class Task1 {
                 }
             }
             if (cont == 2) {
-                suma = suma + i;
+                suma += i;
             }
         }
         return suma;
