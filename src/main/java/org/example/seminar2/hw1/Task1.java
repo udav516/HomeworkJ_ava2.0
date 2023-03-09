@@ -3,7 +3,6 @@ package org.example.seminar2.hw1;
 import java.util.Scanner;
 
 public class Task1 {
-    //1) Дана последовательность N целых чисел. Найти сумму простых чисел.
     public static void main(String[] args) {
         System.out.println(sumPrimeNumbers());
     }
