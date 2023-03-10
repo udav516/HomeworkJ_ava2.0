@@ -1,6 +1,6 @@
 package org.example.seminar3.cw4;
 
-import org.example.seminar3.cw3.model.Coub;
+import org.example.seminar3.cw4.model.Coub;
 
 import java.util.ArrayList;
 import java.util.List;
