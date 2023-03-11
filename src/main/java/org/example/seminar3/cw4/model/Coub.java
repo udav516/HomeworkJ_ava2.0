@@ -9,4 +9,6 @@ public class Coub {
     private String color;
     private Integer size;
     private String material;
+
+
 }
