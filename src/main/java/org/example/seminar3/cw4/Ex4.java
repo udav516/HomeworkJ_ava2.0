@@ -4,6 +4,8 @@ import org.example.seminar3.cw4.model.Coub;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Collection;
+import java.util.HashSet;
 
 public class Ex4 {
     public static void main(String[] args) {
