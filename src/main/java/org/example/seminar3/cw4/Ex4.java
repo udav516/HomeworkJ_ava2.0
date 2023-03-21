@@ -1,6 +1,6 @@
 package org.example.seminar3.cw4;
 
-import org.example.seminar3.cw4.model.Coub;
+import org.example.seminar3.cw4.model.Cube;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -9,26 +9,26 @@ import java.util.HashSet;
 
 public class Ex4 {
     public static void main(String[] args) {
-        Coub coub1 = new Coub("зеленый", 13, "деревянный");
-        Coub coub2 = new Coub("желтый", 73, "металлический");
-        Coub coub3 = new Coub("красный", 23, "картонный");
-        Coub coub5 = new Coub("красный", 23, "картонный");
-        Coub coub6 = new Coub("красный", 23, "картонный");
-        Coub coub4 = new Coub("желтый", 3, "металлический");
+        Cube cube1 = new Cube("зеленый", 13, "деревянный");
+        Cube cube2 = new Cube("желтый", 73, "металлический");
+        Cube cube3 = new Cube("красный", 23, "картонный");
+        Cube cube5 = new Cube("красный", 23, "картонный");
+        Cube cube6 = new Cube("красный", 23, "картонный");
+        Cube cube4 = new Cube("желтый", 3, "металлический");
 
-        List<Coub> listCoub = new ArrayList<>();
-        listCoub.add(coub1);
-        listCoub.add(coub2);
-        listCoub.add(coub3);
-        listCoub.add(coub4);
-        listCoub.add(coub5);
-        listCoub.add(coub6);
-        System.out.println("коллекция " + listCoub.size());
-        System.out.println("уникальная коллекция : " + unicumCollections(listCoub).size());
+        List<Cube> listCube = new ArrayList<>();
+        listCube.add(cube1);
+        listCube.add(cube2);
+        listCube.add(cube3);
+        listCube.add(cube4);
+        listCube.add(cube5);
+        listCube.add(cube6);
+        System.out.println("коллекция " + listCube.size());
+        System.out.println("уникальная коллекция : " + unicumCollections(listCube).size());
 
     }
 
-    private static Collection<Coub> unicumCollections(List<Coub> listCoub) {
-        return new HashSet<>(listCoub);
+    private static Collection<Cube> unicumCollections(List<Cube> listCube) {
+        return new HashSet<>(listCube);
     }
 }

@@ -29,5 +29,4 @@ public class Task1 {
         }
     }
 }
-//toLoverCase()
-//String result = yourString.replaceAll("[-+.^:,]","");
+

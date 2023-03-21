@@ -5,7 +5,7 @@ import lombok.Data;
 
 @AllArgsConstructor
 @Data
-public class Coub {
+public class Cube {
     private String color;
     private Integer size;
     private String material;
